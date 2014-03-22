@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>5f2473a2-fac5-480b-bc26-4644d4c65489</ProjectGuid>
+    <ProjectGuid>{EDAB4A20-588A-4CCC-9A2E-ABB8EA0E4936}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Recipes.Database</RootNamespace>
@@ -33,6 +33,12 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SQL\Recipes.sql" />
+    <Content Include="SQL\Recipes_iRecipe.sql" />
+    <Content Include="SQL\Recipes_Master.sql" />
+    <Content Include="SQL\Recipes_MasterChef.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
