@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipes.Web", "Recipes\Recipes.Web.csproj", "{DB96E65A-49C5-4326-ACDC-A4B0FF888B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipes.DAL", "Recipes.DAL\Recipes.DAL.csproj", "{BF4D7B3F-2FB3-4071-8E37-8A19A3E0E351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe.DAL.Test", "Recipe.DAL.Test\Recipe.DAL.Test.csproj", "{145FEBEE-B6A8-4F27-9E49-19FE8EAB776C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB96E65A-49C5-4326-ACDC-A4B0FF888B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB96E65A-49C5-4326-ACDC-A4B0FF888B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB96E65A-49C5-4326-ACDC-A4B0FF888B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB96E65A-49C5-4326-ACDC-A4B0FF888B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF4D7B3F-2FB3-4071-8E37-8A19A3E0E351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4D7B3F-2FB3-4071-8E37-8A19A3E0E351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4D7B3F-2FB3-4071-8E37-8A19A3E0E351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4D7B3F-2FB3-4071-8E37-8A19A3E0E351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{145FEBEE-B6A8-4F27-9E49-19FE8EAB776C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145FEBEE-B6A8-4F27-9E49-19FE8EAB776C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145FEBEE-B6A8-4F27-9E49-19FE8EAB776C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145FEBEE-B6A8-4F27-9E49-19FE8EAB776C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

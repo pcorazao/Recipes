@@ -1,0 +1,16 @@
+﻿body {
+
+    background:ghostwhite;
+}
+
+table {
+    border: gray;
+    border-width: thin;
+    border-color: black;
+    border-spacing: 10px;
+    background:darkslateblue;
+}
+
+tr {
+    background: ghostwhite;
+}

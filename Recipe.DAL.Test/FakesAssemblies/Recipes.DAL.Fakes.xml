@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Recipes.DAL.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Recipes.DAL.Model.Fakes.ShimRecipe_Master">
+            <summary>Shim type of Recipes.DAL.Model.Recipe_Master</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.ShimRecipe_Master.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.ShimRecipe_Master.#ctor(Recipes.DAL.Model.Recipe_Master)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.ShimRecipe_Master.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.ShimRecipe_Master.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimRecipe_Master.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimRecipe_Master.Constructor">
+            <summary>Sets the shim of Recipe_Master.Recipe_Master()</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimRecipe_Master.DescriptionGet">
+            <summary>Sets the shim of Recipe_Master.get_Description()</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimRecipe_Master.DescriptionSetString">
+            <summary>Sets the shim of Recipe_Master.set_Description(String value)</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimRecipe_Master.IDGet">
+            <summary>Sets the shim of Recipe_Master.get_ID()</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimRecipe_Master.IDSetInt32">
+            <summary>Sets the shim of Recipe_Master.set_ID(Int32 value)</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimRecipe_Master.NameGet">
+            <summary>Sets the shim of Recipe_Master.get_Name()</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimRecipe_Master.NameSetString">
+            <summary>Sets the shim of Recipe_Master.set_Name(String value)</summary>
+        </member>
+        <member name="T:Recipes.DAL.Model.Fakes.ShimRecipe_Master.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimRecipe_Master.AllInstances.DescriptionGet">
+            <summary>Sets the shim of Recipe_Master.get_Description()</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimRecipe_Master.AllInstances.DescriptionSetString">
+            <summary>Sets the shim of Recipe_Master.set_Description(String value)</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimRecipe_Master.AllInstances.IDGet">
+            <summary>Sets the shim of Recipe_Master.get_ID()</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimRecipe_Master.AllInstances.IDSetInt32">
+            <summary>Sets the shim of Recipe_Master.set_ID(Int32 value)</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimRecipe_Master.AllInstances.NameGet">
+            <summary>Sets the shim of Recipe_Master.get_Name()</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimRecipe_Master.AllInstances.NameSetString">
+            <summary>Sets the shim of Recipe_Master.set_Name(String value)</summary>
+        </member>
+        <member name="T:Recipes.DAL.Model.Fakes.ShimrecipesEntities1">
+            <summary>Shim type of Recipes.DAL.Model.recipesEntities1</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.#ctor(Recipes.DAL.Model.recipesEntities1)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.Constructor">
+            <summary>Sets the shim of recipesEntities1.recipesEntities1()</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.OnModelCreatingDbModelBuilder">
+            <summary>Sets the shim of recipesEntities1.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.Recipe_MasterGet">
+            <summary>Sets the shim of recipesEntities1.get_Recipe_Master()</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.Recipe_MasterSetDbSetOfRecipe_Master">
+            <summary>Sets the shim of recipesEntities1.set_Recipe_Master(DbSet`1&lt;Recipe_Master&gt; value)</summary>
+        </member>
+        <member name="T:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.AllInstances.OnModelCreatingDbModelBuilder">
+            <summary>Sets the shim of recipesEntities1.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.AllInstances.Recipe_MasterGet">
+            <summary>Sets the shim of recipesEntities1.get_Recipe_Master()</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.ShimrecipesEntities1.AllInstances.Recipe_MasterSetDbSetOfRecipe_Master">
+            <summary>Sets the shim of recipesEntities1.set_Recipe_Master(DbSet`1&lt;Recipe_Master&gt; value)</summary>
+        </member>
+        <member name="T:Recipes.DAL.Model.Fakes.StubRecipe_Master">
+            <summary>Stub type of Recipes.DAL.Model.Recipe_Master</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.StubRecipe_Master.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.StubRecipe_Master.InitializeStub">
+            <summary>Initializes a new instance of type StubRecipe_Master</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.StubRecipe_Master.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.StubRecipe_Master.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.StubRecipe_Master.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Recipes.DAL.Model.Fakes.StubrecipesEntities1">
+            <summary>Stub type of Recipes.DAL.Model.recipesEntities1</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.StubrecipesEntities1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.StubrecipesEntities1.Dispose(System.Boolean)">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:Recipes.DAL.Model.Fakes.StubrecipesEntities1.DisposeBoolean">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.StubrecipesEntities1.Equals(System.Object)">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:Recipes.DAL.Model.Fakes.StubrecipesEntities1.EqualsObject">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.StubrecipesEntities1.GetHashCode">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:Recipes.DAL.Model.Fakes.StubrecipesEntities1.GetHashCode01">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.StubrecipesEntities1.InitializeStub">
+            <summary>Initializes a new instance of type StubrecipesEntities1</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.StubrecipesEntities1.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Sets the stub of recipesEntities1.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:Recipes.DAL.Model.Fakes.StubrecipesEntities1.OnModelCreatingDbModelBuilder">
+            <summary>Sets the stub of recipesEntities1.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.StubrecipesEntities1.SaveChanges">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:Recipes.DAL.Model.Fakes.StubrecipesEntities1.SaveChanges01">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.StubrecipesEntities1.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:Recipes.DAL.Model.Fakes.StubrecipesEntities1.ShouldValidateEntityDbEntityEntry">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.StubrecipesEntities1.ToString">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="F:Recipes.DAL.Model.Fakes.StubrecipesEntities1.ToString01">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="M:Recipes.DAL.Model.Fakes.StubrecipesEntities1.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:Recipes.DAL.Model.Fakes.StubrecipesEntities1.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.StubrecipesEntities1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.StubrecipesEntities1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Recipes.DAL.Model.Fakes.StubrecipesEntities1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
