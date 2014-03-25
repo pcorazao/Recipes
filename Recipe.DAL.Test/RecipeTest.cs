@@ -10,7 +10,7 @@ namespace Recipe.DAL.Test
         [TestMethod]
         public void GetRecipe_Test()
         {
-          
+           
         }
     }
 }
